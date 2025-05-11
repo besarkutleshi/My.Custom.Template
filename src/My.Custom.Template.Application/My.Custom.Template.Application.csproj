@@ -6,4 +6,21 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="FluentValidation" Version="11.11.0" />
+	  <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+	  <PackageReference Include="MediatR" Version="11.0.0" />
+	  <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+	  <PackageReference Include="Serilog" Version="4.2.0" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\common\My.Custom.Template.Common\My.Custom.Template.Common.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,5 @@
-﻿using My.Custom.Template.Common;
+﻿using My.Custom.Template.Application.Interfaces;
+using My.Custom.Template.Common;
 using My.Custom.Template.Common.DDD;
 using My.Custom.Template.Infrastructure.Persistence;
 using My.Custom.Template.Infrastructure.Repositories;

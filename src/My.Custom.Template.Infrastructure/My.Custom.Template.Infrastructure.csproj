@@ -24,4 +24,15 @@
 	  <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\common\My.Custom.Template.Common\My.Custom.Template.Common.csproj" />
+    <ProjectReference Include="..\My.Custom.Template.Application\My.Custom.Template.Application.csproj" />
+    <ProjectReference Include="..\My.Custom.Template.Domain\My.Custom.Template.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistence\EntityTypeConfigurations\" />
+    <Folder Include="Persistence\Migrations\" />
+  </ItemGroup>
+
 </Project>
