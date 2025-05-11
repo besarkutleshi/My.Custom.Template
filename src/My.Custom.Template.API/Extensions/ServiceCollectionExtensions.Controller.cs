@@ -18,6 +18,7 @@ public static partial class ServiceCollectionExtensions
         });
 
         services.AddEndpointsApiExplorer();
+        
         services.AddSwaggerGen(options =>
         {
             var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";

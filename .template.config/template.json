@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Your Name",
+  "classifications": [ "WebAPI", "REST", "MyCompany" ],
+  "identity": "My.Custom.Template",
+  "name": "BK Web API",
+  "shortName": "webapi-ddd-ca",
+  "sourceName": "My.Custom.Template", 
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "UseSwagger": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Include Swagger setup?"
+    }
+  }
+}
